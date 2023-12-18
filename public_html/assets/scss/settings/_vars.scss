@@ -1,0 +1,54 @@
+/*
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1440px
+
+    @include media-breakpoint-down(sm) {
+        scss coding
+    }
+*/
+
+:root {
+    // Скорость быстрой анимации
+    --speed: 0.3s;
+
+    // Геттеры для bootstrap
+    --gutter: 30px;
+    --gutter-negative: -30px;
+
+    // Фон body
+    --body-bg: #F5F6F8;
+
+    // H1               // H2               // H3
+    --h1-sz: 50px;      --h2-sz: 36px;      --h3-sz: 26px;
+    --h1-lh: 65px;      --h2-lh: 50px;      --h3-lh: 39px;
+    // END H2           // END H2           // END H3
+
+    // Кнопки
+    --btn-bg: var(--root-clr);
+    --btn-bg-hov: var(--root-clr-2);
+
+    --btn-clr: #fff;
+    --btn-clr-hov: #fff;
+
+    --btn-radius: 3px;
+    // END Кнопки
+
+    // Ссылки
+    --link-clr: var(--black);
+    --link-clr-hov: var(--root-clr);
+    // END Ссылки
+    
+    // Главные цвета сайта
+    --clr-1: #2777B5;
+    --clr-2: #FFACA9;
+    --clr-3: #9CE98F;
+    --clr-4: #ECF4FF;
+    --clr-5: #A6A6A6;
+    --clr-6: #334D6E;
+    --clr-7: #6EACDD;
+    // END Главные цвета сайта
+}
